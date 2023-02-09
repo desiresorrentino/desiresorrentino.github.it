@@ -1,72 +1,70 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>CSS: Selecting by class</title>
-        <style>
-        
-        h2 {
-            color: rgb(0, 232, 15);
-        }  
-        
-        #rabbits-info-heading {
-            background-color: purple;
-        }
-        
-        p {
-            color: rgb(191, 0, 255);
-        }
-        
-        .song-lyrics {
-            background-color: yellow;
-        }
-        
-        </style>
-    </head>
-    <body>
-
-    <h1>All about rabbits!</h1>
-    
-    <h2 id="rabbits-info-heading">Basic info</h2>
-    
-    <p>Rabbits are little creatures with long ears and puffy tails, and they move their nose up and down in an adorable way. They eat the most orange vegetables in <em>our</em> world, and <strong>they reproduce more than any human <em>ever</em> has</strong>.</p>
-    
-    <h2>Songs</h2>
-    
-    <p class="song-lyrics">Little Bunny Foo Foo, <br>
-I don't want to see you <br>
-scooping up the field mice <br>
-and bopping them on the head!</p>
-    
-    <p class="song-lyrics">And down came the Good Fairy <br>
-And she said <br>
-"Little bunny Foo Foo <br>
-I don't like you're attitude <br>
-Scooping up the field mice <br>
-And bopping 'em on the head" <br>
-    </p>
-    
-    <p class="song-lyrics">I'll give you 3 chances. <br>
-Then I'll turn you into a goon! <br>
-The next day…</p>
-    
-    <img src="https://www.kasandbox.org/programming-images/animals/rabbit.png" alt="Rabbit with lop ears in barn" width="203"> 
-    
-    <h3>Why rabbits make great pets</h3>
-    
-    <ul>
-        <li>They're furry!</li>
-        <li>Great listeners!</li>
-        <li>Eat all your leftover carrots!</li>
-    </ul>
-    
-    <h3>Top 3 most famous rabbits</h3>
-    
-    <ol>
-        <li>Bugs bunny</li>
-        <li>Easter Bunny</li>
-        <li>Thumper</li>
-    </ol>
-    
-    
-    </body>
+  <head>
+    <title>Sito Sportivo</title>
+  </head>
+  <body>
+    <header>
+      <h1>Benvenuti nel Sito Sportivo</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#notizie">Notizie</a></li>
+        <li><a href="#calendario">Calendario</a></li>
+        <li><a href="#risultati">Risultati</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="notizie">
+        <h2>Ultime Notizie</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
+        lectus eget faucibus tincidunt, sapien nibh bibendum lectus, vel commodo
+        ligula velit vel elit. Aliquam congue velit non sem aliquam blandit.
+        </p>
+      </section>
+      <section id="calendario">
+        <h2>Calendario degli Eventi Sportivi</h2>
+        <table>
+          <tr>
+            <th>Data</th>
+            <th>Evento</th>
+            <th>Luogo</th>
+          </tr>
+          <tr>
+            <td>10 febbraio 2023</td>
+            <td>Partita di calcio</td>
+            <td>Stadio</td>
+          </tr>
+          <tr>
+            <td>15 febbraio 2023</td>
+            <td>Gara di atletica</td>
+            <td>Pista di atletica</td>
+          </tr>
+        </table>
+      </section>
+      <section id="risultati">
+        <h2>Risultati degli Eventi Sportivi</h2>
+        <table>
+          <tr>
+            <th>Data</th>
+            <th>Evento</th>
+            <th>Vincitore</th>
+          </tr>
+          <tr>
+            <td>5 febbraio 2023</td>
+            <td>Partita di basket</td>
+            <td>Squadra A</td>
+          </tr>
+          <tr>
+            <td>7 febbraio 2023</td>
+            <td>Gara di nuoto</td>
+            <td>Atleta B</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 Sito Sportivo</p>
+    </footer>
+  </body>
 </html>
