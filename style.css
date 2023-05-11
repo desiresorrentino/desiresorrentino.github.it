@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F2F2F2;
-    color: #333;
+    background-color: #759aeb;
+    color: #ffffff;
   }
   
   header {
-    background-color: #333;
+    background-color: #375fb6;
     color: #FFF;
     text-align: center;
     padding: 20px;
@@ -17,7 +17,7 @@ body {
   }
   
   nav {
-    background-color: #333;
+    background-color: #375fb6;
     color: #FFF;
     text-align: center;
     padding: 10px 0;
@@ -53,4 +53,12 @@ body {
     font-size: 16px;
     margin-bottom: 10px;
   }
+
+
+  section {
+    background-color: #375fb6;
+    padding: 40px;
+  
+  }
+  
   
