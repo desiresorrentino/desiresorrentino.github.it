@@ -88,3 +88,13 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  h4 {
+    margin-left: 120px;
+  }
