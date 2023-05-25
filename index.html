@@ -25,6 +25,29 @@
         opacity: 1;
       }
       
+      .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Stile per il contenuto della pagina */
+    .content {
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    /* Media query per adattare il layout su schermi più piccoli */
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+      
+      .content {
+        padding: 10px;
+      }
+    }
     </style>
   </head>
   <body>
@@ -64,7 +87,11 @@
     </script>
    <div>
     <section id="barra">
-
+      <div class="container">
+        <div class="content">
+          <!-- Contenuto della pagina -->
+        </div>
+      </div>
     
     <img src="https://static.wixstatic.com/media/76bff0_cc1ac38923f14eb2b986b0284c13bccf~mv2.jpg/v1/fill/w_229,h_258,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Pocock.jpg" alt="Pocock.jpg" style="width:229px;height:258px;object-fit:cover" srcset="https://static.wixstatic.com/media/76bff0_cc1ac38923f14eb2b986b0284c13bccf~mv2.jpg/v1/fill/w_229,h_258,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Pocock.jpg 1x, https://static.wixstatic.com/media/76bff0_cc1ac38923f14eb2b986b0284c13bccf~mv2.jpg/v1/fill/w_458,h_516,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Pocock.jpg 2x" fetchpriority="high">
     <h4>E' un'arte grandiosa, il canottagio. E' l'arte più eccelsa che esista. E' una sinfonia di movimento. Quando voghi bene, rasenta la perfezione e quando rasenti la perfezione è come sfiorare il divino. sfiora la parte più vera di te, che è la tua anima. </h4>
