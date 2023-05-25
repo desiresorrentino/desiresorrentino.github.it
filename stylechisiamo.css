@@ -1,3 +1,9 @@
 body {
     background-color: rgb(127, 129, 131);
 }
+header {
+    background-color: #375fb6;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;  
+  }
