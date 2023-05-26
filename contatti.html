@@ -28,24 +28,101 @@
     ul.navbar li a:hover {
       background-color: #111;
     }
+
+    .navbar {
+      background-color: #f1f1f1;
+      overflow: hidden;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Stili per i menu dropdown */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-weight: bold;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
    
         </style>
     </head>
     <body>   
         <header>
             <nav>
-            
+            <div class="navbar">
+              <div class="dropdown">
               <ul>
                 <li><a href="index.html"> home</a></li>
                 <li><a href="chisiamo.html"> Chi siamo </a></li>
                 <li><a href="corsi.html"> Corsi </a></li>
                 <li><a href="eventi.html">Eventi</a></li>
                 <li><a href="contatti.html">Contatti</a></li>
+                <a class="dropbtn" 
+                <div class="dropdown-content">
+                  <a href="#service1">Servizio 1</a>
+                  <a href="#service2">Servizio 2</a>
+                  <a href="#service3">Servizio 3</a>
               </ul>
+              </div>
+                </div>
+              </div>
+                
+                 
+                  
+
               <h1>contatti</h1> 
             </nav> 
              
           </header>
-        <p>Se siete interessati ai nostri corsi o volete organizzare un evento, non esitate a contattarci. Potete raggiungerci al numero di telefono +39 123456789 o inviarci un'e-mail all'indirizzo info@centroremieropusiano.com. Vi aspettiamo sulle sponde del Lago di Pusiano!</p>
+       
+        <p>
+          <h2>Segreteria</h2>
+          info@centroremierolagodipusiano.it
+          <br>
+          centroremierolagopusiano@pec.it
+          <br>
+          +39 031 656441
+         <h2>Sezione Agonistiche</h2>
+          corsi@centroremierolagodipusiano.it
+          <br>
+          sezione.canottaggio@centroremierolagodipusiano.it
+          
+          <h2>Direzione Tecnica</h2>
+          coach@centroremierolagodipusiano.it</p>
     </body>
 </html>
