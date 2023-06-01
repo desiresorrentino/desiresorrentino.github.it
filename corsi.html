@@ -30,23 +30,58 @@
               background-color: #111;
             }
            
+            body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        
+        #video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        #content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            color: #fff;
+        }
+
                 </style>
     </head>
     <body>
       
         <header>
+          <div id="video-background">
+            <video autoplay muted loop>
+              <source src="https://video.wixstatic.com/video/76bff0_3f824ab5476a4195af1d91024ed7b467/1080p/mp4/file.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="content">    
+        </div>
             <nav>
             
-              <ul>
-                <li><a href="index.html"> home</a></li>
-                <li><a href="chisiamo.html"> Chi siamo </a></li>
-                <li><a href="corsi.html"> Corsi </a></li>
-                <li><a href="eventi.html">Eventi</a></li>
-                <li><a href="contatti.html">Contatti</a></li>
-              </ul>
+             <ul>
+               <li> <a href="index.html"> home</a></li>
+               <li><a href="chisiamo.html"> Chi siamo </a></li>
+               <li><a href="corsi.html"> Corsi </a></li>
+               <li><a href="eventi.html">Eventi</a></li>
+               <li><a href="contatti.html">Contatti</a></li>
+             </ul>
             </nav> 
             <h1>corsi</h1>
           </header>
-        <p>Offriamo una vasta gamma di corsi di canottaggio, dalle lezioni individuali ai corsi di gruppo. Siamo in grado di soddisfare le esigenze di ogni persona, indipendentemente dal loro livello di esperienza. I nostri istruttori altamente qualificati saranno lieti di aiutarvi a migliorare le vostre tecniche di canottaggio e a divertirvi sul Lago di Pusiano.</p>
+        
     </body>
 </html>
